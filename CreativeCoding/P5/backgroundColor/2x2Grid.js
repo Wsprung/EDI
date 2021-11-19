@@ -1,5 +1,6 @@
 function setup() {
   //runs once
+  backgroundColor(34, 49, 49);
   createCanvas(720, 720);
   //upper left corner = (0,0)
   //as x moves to the right it is increasing, as y moves down it is increasing
