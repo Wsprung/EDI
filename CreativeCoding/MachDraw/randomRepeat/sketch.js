@@ -17,12 +17,15 @@ function setup() {
 }
 
 function draw() {
-  for (x = 0; x < 10; x++) {
-    for (y = 0; y < 10; y++) {
-      rect(x * 10, y * 10, x, y);
+  //line in the y dir'n
+  for (y = 0; y < 600; y = y + 100) {
+    //line in the x dir'n
+    for (x = 0; x < 600; x = x + 100) {
+      line(x, y, x + 100, y + 100);
     }
   }
-  save("mySVG.svg"); // give file name
-  print("saved svg");
+
+  // save("mySVG.svg"); // give file name
+  // print("saved svg");
   noLoop(); // we just want to export once
 }
