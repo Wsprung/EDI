@@ -13,7 +13,7 @@ function setup() {
   strokeWeight(1); // do 0.1 for laser
   stroke(255, 0, 0); // red is good for laser
   noFill(); // better not to have a fill for laser
-  background(blue);
+  background("blue");
 }
 
 function draw() {
@@ -22,7 +22,7 @@ function draw() {
       rect(x * 10, y * 10, x, y);
     }
   }
-  // save("mySVG.svg"); // give file name
-  // print("saved svg");
+  save("mySVG.svg"); // give file name
+  print("saved svg");
   noLoop(); // we just want to export once
 }

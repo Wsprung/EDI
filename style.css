@@ -11,6 +11,20 @@ canvas {
   z-index: -1;
 }
 
+#myName {
+  background-color: rgb(121, 250, 197);
+  border: 7px solid white;
+  color: black;
+  font-family: stereofidelic;
+  font-size: 50px;
+}
+
+#linkHead {
+  background-color: white;
+  position: relative;
+  top: 15px;
+}
+
 img {
   border: 5px solid #000;
 }
@@ -68,4 +82,9 @@ td {
   left: 0px;
   top: 0px;
   z-index: 1;
+}
+
+@font-face {
+  font-family: stereofidelic;
+  src: url(assets/stereofidelic/stereofidelic.ttf);
 }
