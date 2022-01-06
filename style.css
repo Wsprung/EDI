@@ -10,8 +10,9 @@ canvas {
   z-index: -1;
 }
 
-#repoLink {
-  color: white;
+#header {
+  border: 6px white;
+  background-color: rgb(142, 199, 255);
 }
 
 img {
