@@ -18,7 +18,7 @@ function draw() {
       rect(x * 10, y * 10, x, y);
     }
   }
-  save("mySVG.svg"); // give file name
-  print("saved svg");
+  // save("mySVG.svg"); // give file name
+  // print("saved svg");
   noLoop(); // we just want to export once
 }

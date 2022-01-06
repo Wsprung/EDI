@@ -7,6 +7,7 @@ function preload() {
 function setup() {
   //runs once
   //square design, same width and height
+  createCanvas(windowWidth, windowHeight);
   //upper left corner = (0,0)
   //as x moves to the right it is increasing, as y moves down it is increasing
   //bottom right corner is (720, 720)
