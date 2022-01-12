@@ -19,10 +19,22 @@
 </head>
 
 <body>
-
-
-
-      <iframe src="https://docs.google.com/document/d/e/2PACX-1vQYgHWg7Te5gZUVmdwUG-9LYjzNYtmdmFXZLWmes6mhYGw7UFqmG8AleegNR29CLi6NhLDdu1T9t7gb/pub?embedded=true"></iframe>
-
+  <style>
+   @keyframes borderChange {
+     50% {border-color: rgb(95, 63, 153);}
+   }
+    #doc {
+      border: solid 8px rgb(23, 124, 124);
+      border-radius: 20px;
+      animation: borderChange 5s infinite;
+    }
+    #fishies {
+      background-image: url("https://www.pngitem.com/pimgs/m/351-3519369_small-fish-drawing-at-small-fish-cartoon-png.png");
+    }
+  </style>
+    <div id = "fishies">
+      <p> <br><br><br><br> </p>
+    </div>
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQYgHWg7Te5gZUVmdwUG-9LYjzNYtmdmFXZLWmes6mhYGw7UFqmG8AleegNR29CLi6NhLDdu1T9t7gb/pub?embedded=true" id = "doc"></iframe>
 
 </body>
