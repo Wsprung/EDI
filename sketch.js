@@ -7,13 +7,9 @@ function preload() {
 function setup() {
   //runs once
   //square design, same width and height
-  let canvas = createCanvas(windowWidth, windowHeight);
-  canvas.parent('sketch-container');
-  //upper left corner = (0,0)
-  //as x moves to the right it is increasing, as y moves down it is increasing
-  //bottom right corner is (720, 720)
-  //fill("red"); //filling the square with red
-  //strokeWeight(1); //stroke weight of the square
+  createCanvas(2 * windowWidth, 2 * windowHeight);
+  // createCanvas(windowWidth, windowHeight);
+
   background(0,0,0);
 }
 
