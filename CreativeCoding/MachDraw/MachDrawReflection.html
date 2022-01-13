@@ -1,54 +1,48 @@
 <!DOCTYPE html>
-
+<script src="../../p5.js"></script>
+<script src="../../p5.sound.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../../style.css">
 <head>
+
 
     <style>
 
-        iframe {
-            margin-left: 15vw;
-            margin-bottom: vh;
-            margin-top: vh;
-            height: 95vh;
-            width: 70vw;
-            position: absolute;
-            z-index: -1;
-        }
+    iframe {
+        margin-left: 15vw;
+        margin-bottom: vh;
+        margin-top: vh;
+        height: 95vh;
+        width: 70vw;
+        /* position: absolute; */
+        z-index: -1;
+        border: none;
+    }
+
+    body {background-image: url('https://wsprung.github.io/whitneysArchive/website/assets/chinaPhoto.jpeg'); overflow: hidden; }
+
+    #homeButton {
+      border: 5px solid rgb(95, 63, 153);
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: baseline;
+      position: relative;
+      top: -626px;
+      /* left: 10px; */
+    }
+
+    @keyframes borderChange {
+      50% {border-color: rgb(95, 63, 153);}
+    }
 
     </style>
 
 </head>
 
 <body>
-  <style>
-   @keyframes borderChange {
-     50% {border-color: rgb(95, 63, 153);}
-   }
-    #doc {
-      border: solid 4px rgb(23, 124, 124);
-      animation: borderChange 5s infinite;
-    }
-    #fishies {
-      position: relative;
-      top: -8px;
-      border: solid 6px rgb(23, 124, 124);
-      animation: borderChange 5s infinite;
-      background-color: teal;
-      background-image: url("https://raw.githubusercontent.com/Wsprung/EDI/main/CreativeCoding/MachDraw/fishy.png");
-    }
-    #fishies2 {
-      border: solid 6px rgb(23, 124, 124);
-      animation: borderChange 5s infinite;
-      background-color: teal;
-      position: relative;
-      top: 708px;
-      background-image: url("https://raw.githubusercontent.com/Wsprung/EDI/main/CreativeCoding/MachDraw/fishy.png");
-    }
-  </style>
-    <div id = "fishies">
-      <p><br><br><br><br></p>
-    </div>
+
+  <a href = "../../index.html" id = "homeButton"><h2>HOME</h2></a>
+
     <iframe src="https://docs.google.com/document/d/e/2PACX-1vQYgHWg7Te5gZUVmdwUG-9LYjzNYtmdmFXZLWmes6mhYGw7UFqmG8AleegNR29CLi6NhLDdu1T9t7gb/pub?embedded=true" id = "doc"></iframe>
-    <div id = "fishies2">
-      <p><br><br><br><br></p>
-    </div>
+
 </body>

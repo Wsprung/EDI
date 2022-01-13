@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-
+<script src="../p5.js"></script>
+<script src="../p5.sound.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../style.css">
 <head>
 
     <style>
@@ -10,8 +12,22 @@
             margin-top: vh;
             height: 95vh;
             width: 70vw;
-            position: absolute;
+            /* position: absolute; */
             z-index: -1;
+            border: none;
+        }
+
+        body {background-image: url('https://wsprung.github.io/whitneysArchive/website/assets/chinaPhoto.jpeg'); overflow: hidden;}
+
+        #homeButton {
+          border: 5px solid rgb(95, 63, 153);
+          display: inline-flex;
+	        flex-direction: row;
+	        justify-content: flex-start;
+	        align-items: baseline;
+          position: relative;
+          top: -626px;
+          /* left: 10px; */
         }
 
     </style>
@@ -19,11 +35,9 @@
 </head>
 
 <body>
+  <a href = "../index.html" id = "homeButton"><h2>HOME</h2></a>
 
-
-
-        <iframe src="https://docs.google.com/document/d/e/2PACX-1vRtexyfyzgvU8JVCwDQMifcs1jeLUGoTisjZiswA8FLFa_kSJ3arqV1ziFa9Ha4xZVkQT0_W6DGSI9j/pub?embedded=true"></iframe>
-
+  <iframe src="https://docs.google.com/document/d/e/2PACX-1vRtexyfyzgvU8JVCwDQMifcs1jeLUGoTisjZiswA8FLFa_kSJ3arqV1ziFa9Ha4xZVkQT0_W6DGSI9j/pub?embedded=true"></iframe>
 
 
 </body>
