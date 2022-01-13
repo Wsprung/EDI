@@ -29,7 +29,7 @@ function draw() {
   var sideLen = windowWidth/numSquares;
 //iterates in y-direction to create rows in the y-direction
  //var placeGif = true;
-  for(var y = 0; y < windowHeight; y = y + sideLen) {
+  for(var y = 0; y < windowHeight * 2; y = y + sideLen) {
 
  //iterates in x-direction to create row of squares
   for(var x = 0; x < windowWidth; x = x + sideLen) {
