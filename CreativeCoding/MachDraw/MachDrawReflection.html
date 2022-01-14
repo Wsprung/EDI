@@ -18,31 +18,30 @@
         border: none;
     }
 
-    body {background-image: url('https://wsprung.github.io/whitneysArchive/website/assets/chinaPhoto.jpeg'); }
-
-    #homeButton {
-      border: 5px solid rgb(95, 63, 153);
-      display: inline-flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: baseline;
-      position: relative;
-      top: -589px;
-      /* left: 10px; */
-    }
+    body {background-image: url('https://wsprung.github.io/whitneysArchive/website/assets/chinaPhoto.jpeg'); overflow: hidden; }
 
     @keyframes borderChange {
       50% {border-color: rgb(95, 63, 153);}
     }
 
-    </style>
+    #homeButton {
+      border: 5px solid rgb(22, 227, 167);
+      animation: borderChange 5s infinite;
+      background-color: hotpink;
+    }
+
+    #homeButtonDiv {
+      text-align: center;
+    }
+</style>
 
 </head>
 
 <body>
+  <a href = "../index.html" id = "homeButton"><h2>HOME</h2></a>
 
-  <a href = "../../index.html" id = "homeButton"><h2>HOME</h2></a>
-
+  <div id = "homeButtonDiv">
     <iframe src="https://docs.google.com/document/d/e/2PACX-1vQYgHWg7Te5gZUVmdwUG-9LYjzNYtmdmFXZLWmes6mhYGw7UFqmG8AleegNR29CLi6NhLDdu1T9t7gb/pub?embedded=true" id = "doc"></iframe>
-
+  </div>
 </body>
+</html>
